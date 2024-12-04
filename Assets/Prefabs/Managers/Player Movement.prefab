@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9093447491120169063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6176264182516982731}
+  - component: {fileID: 1182536633002454303}
+  - component: {fileID: 131506486306223481}
+  m_Layer: 0
+  m_Name: Player Movement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6176264182516982731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093447491120169063}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1182536633002454303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093447491120169063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f430ea5b8bb93c418dad50ae359d8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCarMovement: {fileID: 0}
+  gunWeapon: {fileID: 0}
+  virtualCamera: {fileID: 0}
+  pauseManager: {fileID: 0}
+  radioManager: {fileID: 0}
+  playerInput: {fileID: 131506486306223481}
+--- !u!114 &131506486306223481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093447491120169063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 0785d503e9d84534abc4a0215ae8de70, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4e0ce2a5-d27a-4a15-9bbe-93d8c0d65dab
+    m_ActionName: 'Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 38094ac4-0822-47bf-b3e9-aa84f60ebd41
+    m_ActionName: 'Player/Drift[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b78d1115-039a-4c72-b17a-750d03f296fb
+    m_ActionName: 'Player/Fire[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cda75b1e-4272-4823-b34a-488496ba4b8d
+    m_ActionName: 'Player/Look[/Mouse/position]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 63d1bbcd-f1c1-42d1-8f96-04bdb3be34d6
+    m_ActionName: 'Player/Use Ability[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 572362ae-6a97-4ed2-af01-d13f801fc561
+    m_ActionName: 'Player/Pause[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dfbf1565-c0b0-4734-8f3c-6062720cbcc3
+    m_ActionName: 'Cutscene/Pause[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b50aaa23-2a38-479b-ba11-69afb3e86461
+    m_ActionName: 'Shop/Pause[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d7212a2b-9ded-4a47-a2a4-a678c48a92f0
+    m_ActionName: 'Shop/Show Radio[/Keyboard/m]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d414f201-dd70-431d-abe1-1d79e43645d0
+    m_ActionName: 'Shop/Play Radio[/Keyboard/v]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 884f02e0-f7ab-48e3-ac23-23facbb3aaeb
+    m_ActionName: 'Shop/Next Track[/Keyboard/n]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9ebca4fa-d5d8-4be1-9ea3-157dedda83c0
+    m_ActionName: 'Shop/Previous Track[/Keyboard/b]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cca22a9d-433b-4e19-978c-8458ae00f00d
+    m_ActionName: 'Player/Previous Track[/Keyboard/b]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ab01c9e1-b0c8-48f8-93c4-53f621f36cbd
+    m_ActionName: 'Player/Play Radio[/Keyboard/v]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4701b2a6-b5fa-41e6-8537-c8809034c912
+    m_ActionName: 'Player/Next Track[/Keyboard/n]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 521c3e8a-bfe6-408f-98c0-ddc322f73dd3
+    m_ActionName: 'Player/Show Radio[/Keyboard/m]'
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

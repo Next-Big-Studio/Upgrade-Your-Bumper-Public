@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8270032221200252364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8847631114516888302}
+  - component: {fileID: 7968183830746529401}
+  m_Layer: 0
+  m_Name: Environment Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8847631114516888302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8270032221200252364}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 129.38461, y: 40.0191, z: 505.9383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7968183830746529401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8270032221200252364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739ee7e7bdc9c2844b2c34fc120a898d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightRainPrefab: {fileID: 2419200001286154786, guid: 83cd806916e4b8f4b9ffd36462a6a555, type: 3}
+  heavyRainPrefab: {fileID: 6600846995693204385, guid: b62853189e592bd4e8da5b02c2f0e293, type: 3}
+  fogPrefab: {fileID: 2831149913407705732, guid: 5b99d4398095f0a40929b5e6b44b7f40, type: 3}
+  rainInstance: {fileID: 0}
+  fogInstance: {fileID: 0}
+  weatherPositions: {fileID: 0}
+  daySkybox: {fileID: 2100000, guid: 0b846be1b116429409a7669cacf2a62e, type: 2}
+  nightSkybox: {fileID: 2100000, guid: 97637a2a763b7f24b8da4e139e4144ca, type: 2}
+  dayCloudySkybox: {fileID: 2100000, guid: d11d338e6a849d84f85a289f91b3fa00, type: 2}
+  nightCloudySkybox: {fileID: 2100000, guid: d11d338e6a849d84f85a289f91b3fa00, type: 2}
+  rainSource: {fileID: 0}
+  rainSound: {fileID: 8300000, guid: af95d8343c26b436b9fe7320d290f4b0, type: 3}

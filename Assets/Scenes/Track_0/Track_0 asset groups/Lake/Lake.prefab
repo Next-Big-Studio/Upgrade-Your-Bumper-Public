@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2337390967878927729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3902381974867477726}
+  m_Layer: 0
+  m_Name: Lake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3902381974867477726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2337390967878927729}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 311.75006, y: -130.79222, z: -2.1199646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3189097966075552564}
+  - {fileID: 3750177772246189630}
+  - {fileID: 5337186925698962028}
+  - {fileID: 3627251748846125709}
+  - {fileID: 8341116454769757764}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1049584051004114909
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3902381974867477726}
+    m_Modifications:
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -248.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188547194742267899, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+      propertyPath: m_Name
+      value: Lake Block 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+--- !u!4 &3627251748846125709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4379268077823935824, guid: 6ce57811180db9a44a9505e02808705f, type: 3}
+  m_PrefabInstance: {fileID: 1049584051004114909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2825484879338032492
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3902381974867477726}
+    m_Modifications:
+    - target: {fileID: 4986132469526241021, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_Name
+      value: Lake Block 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -92.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+--- !u!4 &5337186925698962028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7865357237303844608, guid: 06fca25c97396ee42871c6dd8a69b890, type: 3}
+  m_PrefabInstance: {fileID: 2825484879338032492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4339274321854225607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3902381974867477726}
+    m_Modifications:
+    - target: {fileID: 2194371963305080194, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_Name
+      value: Lake Block 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -71.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -358.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+--- !u!4 &8341116454769757764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5762824362901099139, guid: a7e7baeb9d7086b49b13d6fe9944748a, type: 3}
+  m_PrefabInstance: {fileID: 4339274321854225607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4869026668770896607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3902381974867477726}
+    m_Modifications:
+    - target: {fileID: 195239197824619037, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_Name
+      value: Lake Block 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -150.24539
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.292221
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 56.87819
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+--- !u!4 &3189097966075552564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8057980152084466155, guid: 6c56072f5d58c664eadf9bbe36535ce3, type: 3}
+  m_PrefabInstance: {fileID: 4869026668770896607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5123926070222539076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3902381974867477726}
+    m_Modifications:
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.649994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.619995
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8769134693744943506, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+      propertyPath: m_Name
+      value: Lake Block 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+--- !u!4 &3750177772246189630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8291295467593437050, guid: 73ed0c2a9a7654d45b4d37e6a040e559, type: 3}
+  m_PrefabInstance: {fileID: 5123926070222539076}
+  m_PrefabAsset: {fileID: 0}

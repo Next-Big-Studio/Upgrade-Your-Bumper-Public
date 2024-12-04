@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b31a73fba2a194990cda44179ad4f8, type: 3}
+  m_Name: Better Engine
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 92bae73a4f37b3045a316a9873f0d4a0, type: 3}
+  prefab: {fileID: 1494085695590882662, guid: 0c998519df7a5bf479b24ccad3aa43b3, type: 3}
+  prefab2: {fileID: 5796461276801115156, guid: 301e8dc3e13d5ac48ad09f0ab518d0ab, type: 3}
+  applicationType: 1
+  amountNeededForSecondModel: 0
+  price: 100
+  bodyStrength: 1
+  minImpulseForDamage: 1
+  deformationRequiredToDetachWheels: 1
+  maxSpeed: 1
+  acceleration: 2
+  breakAcceleration: 1
+  maxWheelAngle: 1
+  maxAmount: 3
+  isTemporary: 0
+  name: Better Engine
+  description: Move Twice as Fast
+  rarity: 5
+  id: 2
+  amount: 1

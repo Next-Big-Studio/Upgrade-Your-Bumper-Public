@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 739ee7e7bdc9c2844b2c34fc120a898d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lightRainPrefab: {instanceID: 0}
+  - heavyRainPrefab: {instanceID: 0}
+  - fogPrefab: {instanceID: 0}
+  - rainInstance: {instanceID: 0}
+  - fogInstance: {instanceID: 0}
+  - weatherPositions: {instanceID: 0}
+  - rainSound: {fileID: 8300000, guid: 47a42579c67d0594590e24d4521b3399, type: 3}
+  - daySkybox: {instanceID: 0}
+  - nightSkybox: {instanceID: 0}
+  - dayCloudySkybox: {instanceID: 0}
+  - nightCloudySkybox: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

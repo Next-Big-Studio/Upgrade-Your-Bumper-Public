@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5023147749277158727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481580888593685945}
+  - component: {fileID: 76087822209788395}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481580888593685945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023147749277158727}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -238.48979, y: -146.05362, z: 208.71658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &76087822209788395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023147749277158727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60f540b7b17afc4c80020f388eabec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene:
+    m_Handle: 0
+  allCars:
+  - {fileID: 11400000, guid: e92920d6392fed14e85286018ffbf1aa, type: 2}
+  - {fileID: 11400000, guid: 978737925ade2b845bf824773bc1f367, type: 2}
+  allUpgrades:
+  - {fileID: 11400000, guid: 6492c952c3b605d46b6c38926194612f, type: 2}
+  - {fileID: 11400000, guid: 0afb1190c161fdf49b66a36902498dd2, type: 2}
+  - {fileID: 11400000, guid: 5af9494830d39814088cdeb9661ad8f8, type: 2}
+  - {fileID: 11400000, guid: b049a845e09a526449cfef8e9da32d4a, type: 2}
+  allWeapons: []
+  raceManager: {fileID: 0}
+  shopManager: {fileID: 0}
+  carCreator: {fileID: 0}
+  playerSystem: {fileID: 0}
+  playerControls: {fileID: 0}
+  playerHUD: {fileID: 0}
