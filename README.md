@@ -1,6 +1,8 @@
 # Upgrade Your Bumper - Public
+Welcome to the Upgrade Your Bumper—Public Repository, a rogue-lite racing game developed in Unity 3D using the Standard Rendering Pipeline.
 
-Welcome to the **Upgrade Your Bumper - Public Repository**, a roguelite racing game developed in **Unity 3D** using the **Standard Rendering Pipeline**. This repository is intended for public sharing, collaboration, and showcasing the game's architecture. Note that this version is incomplete and will not build as it is missing many assets, sound effects, and proprietary code.
+
+This repository is intended for public sharing, collaboration, and showcasing the game's architecture. Note that this version is incomplete and will not build as it is missing many assets, sound effects, and proprietary code. This was for the University of Houston's Introduction to Game Development class (COSC 4358). Thank you to all the judges, teacher assistants, and the outstanding professor, Dr. Yun. This will probably never be updated again, but feel free to check out our [itch.io](#https://nextbigstudio.itch.io) page!
 
 ---
 
@@ -12,7 +14,8 @@ Welcome to the **Upgrade Your Bumper - Public Repository**, a roguelite racing g
 
 ## ⚙️ Project Details
 
-- **Engine:** Unity 3D (Standard Rendering Pipeline)
+
+- **Engine:** Unity 3D (Standard Rendering Pipeline) version 2023.2.20f1
 - **Genre:** Roguelite Racing
 - **Status:** Public showcase version; missing assets and proprietary code.
 
